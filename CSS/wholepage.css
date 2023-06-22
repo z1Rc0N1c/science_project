@@ -1,0 +1,17 @@
+.positive{
+    border-color: cyan;
+    background-color: aliceblue;
+}
+.negative{
+    border-color: darkred;
+    background-color: rgb(189, 140, 140);
+}
+fieldset{
+    border-color: salmon;
+}
+body{
+    width: 100%;
+}
+.gif{
+    margin-left: 5%;
+}

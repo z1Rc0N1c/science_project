@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    <link rel="stylesheet" href="../CSS/mainpage.css">
+    <link rel="stylesheet" href="./Document_files/nav.css">
+    <link rel="stylesheet" href="../CSS/dropdown.css">
+</head>
+<body>
+  <header>
+    <b>LOGO</b>
+    <nav id="pc">
+      <a href="https://ko.wikipedia.org">위키피디아</a>
+      <a href="https://www.safekorea.go.kr">국민재난안전포털</a>
+      <a href="https://www.weather.go.kr">기상청</a>
+    </nav>
+    <div class="dropdown">
+      <button class="dropbtn"> 
+        <span class="dropbtn_icon">다른 재난들</span>
+      </button>
+      <div class="dropdown-content">
+        <a href="./earthquake.html" target="_blank">지진</a>
+        <a href="./typhoon.html" target="_blank">태풍</a>
+        <a href="./volcano.html" target="_blank">화산</a>
+        <a href="./tidal wave.html" target="_blank">해일</a>
+      </div>
+    </div>
+    <input type="checkbox" id="navbar">
+    <label for="navbar">
+        <p></p>
+        <p></p>
+        <p></p>
+    </label>
+    <l id="navmob">
+        <a href="https://google.com/">google</a>
+        <a href="https://naver.com/">naver</a>
+        <a href="https://github.com/">github</a>
+        <a href="https://rust-lang.org/">rust</a>
+    </l>
+  </header>
+  <footer>
+    <h1>재난들을 알아보고 싶다면?</h1>
+    <div class="mp">
+      <nav style="display:flex;">
+      <a class="but" href= ./earthquake.html target="_blank">지진</a>
+      <a class="but" href= ./typhoon.html target="_blank">태풍</a>
+      <a class="but" href= ./volcano.html target="_blank">화산</a>
+      <a class="but" href= "./tidal wave.html" target="_blank">해일</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
